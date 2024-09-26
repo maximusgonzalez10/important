@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact form </title>
+</head>
+<body>
+    <h1>Contact form</h1>
+    <form>
+        <label for="username">Enter user name</label>
+        <input type="text" id="username">
+        <br><br>
+        <label for="email">Enter email</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+        <label for="Password">Password</label>
+        <input type="password" name="password" id="password">
+
+        <p>select your age</p>
+
+        <input type="radio" name="Age" id="option-1" value="0-25">
+        <label for="option-1">0-25</label>
+        <input type="radio" name="Age" id="option-2" value="26-50">
+        <label for="option-2">26-50</label>
+        <input type="radio" name="Age" id="option-3" value="51+">
+        <label for="option-3">50+</label> 
+
+        <br><br>
+        <label for="">Security option</label>
+        <select name="Question" id="question">
+            <option value="Q1">What is the name of your favorite pet?</option>
+            <option value="Q2">What is your nickname?</option>
+            <option value="Q3">What is the name of your spouse?</option>
+
+            <br><br>
+            
+            <label for="answer">security question answer:</label>
+            <input type="text" name="answer" id="answer">
+
+            <br><br>
+            <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+
+            
+        </select>
+    </form>
+</body>
+</html>
